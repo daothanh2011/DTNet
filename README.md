@@ -1,1 +1,9 @@
-# DTNet
+### 📖 Transformer Model Embedding Dual Stream for Modulation Classification of Short Signal Samples
+
+
+#### Abtract
+In the context of modern communication systems, automatic modulation classification (AMC) is of paramount importance. Some AMC approaches based on transformers employ single-network models to classify radio signals with uniform input formats with the aim of generating feature embeddings for long signal samples. This study introduces an innovative transformer model DTNet, which employs dual-stream embedding modules. The first stream, the scale feature and extension block, utilizes a scaling function to generate an updated output map. This map is then used in the extension network and reconstructed into a square matrix. During this process, a response map is detected and integrated using the corresponding filters. The second stream harnesses convolutional neural networks to extract discriminative features from multiscale signal representations. Furthermore, a modified feature embedding to leverage the transformer architecture is introduced to capture global dependencies and contextual information from the input signal, thereby enhancing the modulation classification accuracy. This improvement is particularly notable, even when working with signal datasets with short signal samples per frame. In addition, DTNet demonstrates a significant improvement and achieves excellent recognition accuracy rates of 93.4\% and 94.4\% for RML2016.10A and RML2016.10B, respectively. DTNet outperforms state-of-the-art deep-learning architectures while maintaining a lower computational complexity. 
+
+The following figure shows the architecture of the proposed DTNet model:
+
+![DTNet Architecture](DTNet.png)
