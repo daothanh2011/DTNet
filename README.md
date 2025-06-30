@@ -6,4 +6,4 @@ In the context of modern communication systems, automatic modulation classificat
 
 The following figure shows the architecture of the proposed DTNet model:
 
-![DTNet Architecture](DTNet.png)
+![DTNet Architecture](DT_Net.png)
